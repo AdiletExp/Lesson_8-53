@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.d("asdasda", "onResume: " + "sss");
+
         Log.d("LIFE", "onResume: Leona");
     }
 
